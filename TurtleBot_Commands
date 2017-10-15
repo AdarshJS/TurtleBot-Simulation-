@@ -1,0 +1,24 @@
+Useful Commands in TurtleBot simulation:
+
+1. Open an empty world: 
+
+roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=/opt/ros/indigo/share/turtlebot_gazebo/worlds/empty.world
+
+2. Open TurtlBot in Rviz:
+
+roslaunch turtlebot_rviz_launchers view_robot.launch
+
+3. Teleoperation of the TurtleBot:
+
+roslaunch turtlebot_teleop keyboard_teleop.launch
+
+4. Open tutorial world that you created:
+
+roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=/home/adarshjs/turtlebot_custom_gazebo_worlds/tutorial.world
+
+
+Commands for my simulation:
+
+1. roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=/home/adarshjs/turtlebot_custom_gazebo_worlds/walls.world
+2. rosrun beginner_tutorials 2_Depth_Publisher
+3.cd /home/adarshjs/helloworld/turtlebot then run python Wall_Follower_2.py
